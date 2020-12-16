@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Dwzt - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Dwzt.res" /d "_DEBUG" /d "_AFXDLL" "D:\VC\Microsoft Visual Studio\MyProjects\Dwzt\Dwzt.rc"" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP830.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Dwzt.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC\Microsoft Visual Studio\MyProjects\Dwzt\CSocket.cpp"
+"D:\VC\Microsoft Visual Studio\MyProjects\Dwzt\Dlg_Close.cpp"
+"D:\VC\Microsoft Visual Studio\MyProjects\Dwzt\Dlg_login.cpp"
+"D:\VC\Microsoft Visual Studio\MyProjects\Dwzt\Dwzt.cpp"
+"D:\VC\Microsoft Visual Studio\MyProjects\Dwzt\DwztDlg.cpp"
+"D:\VC\Microsoft Visual Studio\MyProjects\Dwzt\MyDlg.cpp"
+"D:\VC\Microsoft Visual Studio\MyProjects\Dwzt\MyThread.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP830.tmp" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP831.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Dwzt.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC\Microsoft Visual Studio\MyProjects\Dwzt\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP831.tmp" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP832.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Dwzt.pdb" /debug /machine:I386 /out:"Debug/Dwzt.exe" /pdbtype:sept 
+".\Debug\CSocket.obj"
+".\Debug\Dlg_Close.obj"
+".\Debug\Dlg_login.obj"
+".\Debug\Dwzt.obj"
+".\Debug\DwztDlg.obj"
+".\Debug\MyDlg.obj"
+".\Debug\MyThread.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Dwzt.res"
+]
+Creating command line "link.exe @C:\Users\Administrator\AppData\Local\Temp\RSP832.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CSocket.cpp
+Dlg_Close.cpp
+Dlg_login.cpp
+Dwzt.cpp
+DwztDlg.cpp
+MyDlg.cpp
+MyThread.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Dwzt.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

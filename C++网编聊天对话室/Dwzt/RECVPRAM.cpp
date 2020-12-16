@@ -1,0 +1,27 @@
+// RECVPRAM.cpp: implementation of the RECVPRAM class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Dwzt.h"
+#include "RECVPRAM.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+RECVPRAM::RECVPRAM()
+{
+
+}
+
+RECVPRAM::~RECVPRAM()
+{
+
+}
